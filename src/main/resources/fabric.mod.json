@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+
+    "id": "mace3d",
+    "version": "${version}",
+
+    "depends": {
+        "java": ">=21",
+        "minecraft": "*",
+        "fabricloader": ">=0.14.0",
+        "fabric": "*"
+    },
+
+    "name": "3D Mace",
+    "description": "Gives the new Mace item a faithful 3D model.",
+
+    "icon": "assets/mace3d/icon.png",
+
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "luavixen",
+            "contact": {
+                "email": "lua@foxgirl.dev",
+                "website": "https://foxgirl.dev/"
+            }
+        },
+        {
+            "name": "Lupin",
+            "contact": {
+                "website": "https://www.youtube.com/@LupinYT"
+            }
+        }
+    ],
+
+    "entrypoints": {
+        "client": ["dev.foxgirl.mace3d.Mace3D"]
+    }
+}
