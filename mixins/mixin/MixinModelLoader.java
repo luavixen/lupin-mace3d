@@ -19,7 +19,7 @@ public abstract class MixinModelLoader {
 
     @Inject(
         method = "<init>", at = @At(
-            value = "invoke", ordinal = 0,
+            value = "INVOKE", ordinal = 0,
             target = "Lnet/minecraft/client/render/model/ModelLoader;loadItemModel(Lnet/minecraft/client/util/ModelIdentifier;)V"
         )
     )
