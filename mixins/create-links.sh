@@ -21,7 +21,7 @@ for loader in fabric neoforge forge; do
         cd ..
 
         cd java/$mod_source_path
-        rm mixin
+        rm -r mixin
         ln -s ../../../../../../../mixins/mixin mixin
         cd ../../../..
 
