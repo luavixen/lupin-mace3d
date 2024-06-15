@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+
+license = "UNLICENSED"
+
+[[mods]]
+modId = "mace3d"
+version = "${version}"
+
+displayName = "Mace 3D"
+
+authors = "lupiiin_, luavixen <lua@foxgirl.dev> (https://foxgirl.dev/)"
+description = "Gives the new Mace item a faithful 3D model."
+
+logoFile = "assets/mace3d/icon.png"
+
+[[mixins]]
+config = "mace3d.mixins.json"
+
+[[dependencies.mace3d]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mace3d]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
