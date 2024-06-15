@@ -1,4 +1,5 @@
 {
+
     "schemaVersion": 1,
 
     "id": "mace3d",
@@ -35,5 +36,12 @@
 
     "entrypoints": {
         "client": ["dev.foxgirl.mace3d.Mace3D"]
-    }
+    },
+    "mixins": [
+        {
+            "environment": "client",
+            "config": "mace3d.mixins.json"
+        }
+    ]
+
 }
