@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export MSYS=winsymlinks:nativestrict
+
 mod_config_name="mace3d.mixins.json"
 mod_source_path="dev/foxgirl/mace3d"
 
