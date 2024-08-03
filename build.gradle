@@ -1,6 +1,6 @@
 plugins {
     id 'architectury-plugin' version '3.4.155'
-    id 'dev.architectury.loom' version '1.6.397' apply false
+    id 'dev.architectury.loom' version '1.7.410' apply false
 }
 
 group = project.mod_group
@@ -15,10 +15,7 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${project.minecraft_version}"
-        mappings loom.layered {
-            it.mappings("net.fabricmc:yarn:${project.yarn_mappings}:v2")
-            it.mappings("dev.architectury:yarn-mappings-patch-neoforge:${project.yarn_mappings_patch_neoforge}")
-        }
+        mappings loom.officialMojangMappings()
     }
 
     jar {
@@ -27,7 +24,7 @@ subprojects {
                 'Specification-Title'     : rootProject.mod_name,
                 'Specification-Vendor'    : 'luavixen',
                 'Specification-Version'   : '1',
-                'Implementation-Title'    : '3D Mace',
+                'Implementation-Title'    : 'Awesome 3D Mace',
                 'Implementation-Version'  : rootProject.mod_version,
                 'Implementation-Vendor'   : 'luavixen',
                 'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
@@ -49,7 +46,7 @@ allprojects {
 
     repositories {
         maven {
-            name = 'Neoforged'
+            name = 'NeoForged Maven'
             url = 'https://maven.neoforged.net/releases/'
         }
         mavenCentral()

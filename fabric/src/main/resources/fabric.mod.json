@@ -12,7 +12,7 @@
         "fabric": "*"
     },
 
-    "name": "3D Mace",
+    "name": "Awesome 3D Mace",
     "description": "Gives the new Mace item a faithful 3D model.",
 
     "icon": "assets/mace3d/icon.png",

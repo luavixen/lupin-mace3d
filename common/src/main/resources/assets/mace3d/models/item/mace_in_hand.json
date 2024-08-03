@@ -1,8 +1,8 @@
 {
-	"credit": "luavixen",
+	"credit": "luavixen https://foxgirl.dev/",
 	"textures": {
-		"0": "item/mace_model_mesh",
-		"1": "item/mace_model_heavy_core"
+		"0": "mace3d:item/mace_model_mesh",
+		"1": "mace3d:item/mace_model_heavy_core"
 	},
 	"elements": [
 		{
@@ -25,12 +25,12 @@
 			"to": [9, 19, 8.5],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 18, 8]},
 			"faces": {
-				"north": {"uv": [13, 1, 15, 3], "texture": "#0"},
-				"east": {"uv": [13, 1, 14, 3], "texture": "#0"},
+				"north": {"uv": [15, 1, 13, 3], "texture": "#0"},
+				"east": {"uv": [14, 1, 15, 3], "texture": "#0"},
 				"south": {"uv": [13, 1, 15, 3], "texture": "#0"},
 				"west": {"uv": [13, 1, 14, 3], "texture": "#0"},
 				"up": {"uv": [13, 1, 15, 2], "texture": "#0"},
-				"down": {"uv": [13, 1, 15, 2], "texture": "#0"}
+				"down": {"uv": [13, 2, 15, 3], "texture": "#0"}
 			}
 		},
 		{

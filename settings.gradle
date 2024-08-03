@@ -25,4 +25,5 @@ rootProject.name = "mace3d"
 
 include("common")
 include("fabric")
+// include("forge")
 include("neoforge")

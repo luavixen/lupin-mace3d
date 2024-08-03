@@ -7,7 +7,7 @@ license = "UNLICENSED"
 modId = "mace3d"
 version = "${version}"
 
-displayName = "Mace 3D"
+displayName = "Awesome 3D Mace"
 
 authors = "lupiiin_, luavixen <lua@foxgirl.dev> (https://foxgirl.dev/)"
 description = "Gives the new Mace item a faithful 3D model."
